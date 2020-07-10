@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "export": "next build && next export"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
