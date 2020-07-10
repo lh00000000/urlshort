@@ -20,7 +20,7 @@ export default (Home) => {
         })}
       </div>
        <Adder triggerRefresh={refreshData} />
-      <style jsx>
+      <style jsx="jsx">
         {`
           #main {
             margin-left: 16px;
@@ -30,7 +30,7 @@ export default (Home) => {
           }
         `}
       </style>
-      <style jsx global>
+      <style jsx="jsx" global="global">
         {`
           * {
             font-family: Courier New;
