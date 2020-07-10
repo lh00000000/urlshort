@@ -1,4 +1,4 @@
-- [view online -> https://luminghao.com/urlshort (2020-07-09)](https://luminghao.com/urlshort)
+- [view online -> (make sure HTTPS is not used) http://lh00000000-public.s3.us-east-1.amazonaws.com/2020/urlshort/index.html (2020-07-09)](http://lh00000000-public.s3.us-east-1.amazonaws.com/2020/urlshort/index.html)
 - run locally -> `yarn dev` (after doing `echo "NEXT_PUBLIC_GB_TOKEN=${GB_TOKEN}" >.env.local`)
 - run tests -> `yarn test`
 
