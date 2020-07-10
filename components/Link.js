@@ -68,7 +68,7 @@ export const Link = ({ slug, short_url, url, triggerRefresh }) => {
       <div className="nonControls newPositionOrigin">
         <div className="linkOverlay">
           <p className="long_url">
-            <a className="clickable" href={short_url} target="_blank">
+            <a className="clickable" href={url} target="_blank">
               {clipboard.copied ? "copied " + short_url : url}
             </a>
           </p>
