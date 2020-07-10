@@ -22,7 +22,7 @@ describe("Link", () => {
         const link = shallow(
             <Link url={url} slug={slug} short_url={short_url} />
         )
-        expect(link.find(".long_url > a").prop("href")).toBe(short_url)
+        expect(link.find(".long_url > a").prop("href")).toBe(url)
     })
 
     it("has a delete button", async () => {
